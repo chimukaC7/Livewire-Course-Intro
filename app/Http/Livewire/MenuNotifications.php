@@ -21,4 +21,10 @@ class MenuNotifications extends Component
     {
         $this->notificationsCount++;
     }
+
+    //with parameter
+//    public function incrementNotificationsCount($count)
+//    {
+//        $this->notificationsCount+= $count;
+//    }
 }

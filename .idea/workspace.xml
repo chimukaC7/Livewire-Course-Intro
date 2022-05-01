@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7050418b-1ef7-4518-aab1-bc17fdaa691f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/blade.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+    <list default="true" id="7050418b-1ef7-4518-aab1-bc17fdaa691f" name="Default Changelist" comment="minor adjustments">
+      <change afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_ide_helper_models.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/MenuNotifications.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/MenuNotifications.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/profile.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,8 +203,16 @@
       <workItem from="1602925614431" duration="894000" />
       <workItem from="1603083103470" duration="3962000" />
       <workItem from="1603114791438" duration="2469000" />
-      <workItem from="1651391466294" duration="3564000" />
+      <workItem from="1651391466294" duration="4861000" />
     </task>
+    <task id="LOCAL-00001" summary="minor adjustments">
+      <created>1651395381499</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651395381499</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,5 +228,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="minor adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor adjustments" />
   </component>
 </project>

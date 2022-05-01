@@ -57,7 +57,8 @@ class Profile extends Component
 
         $this->success = true;
 
-        $this->emit('profileUpdated');
+        $this->emit('profileUpdated');//fires an event
+//        $this->emit('profileUpdated',3);//fires an event with param
     }
 
     //hooks

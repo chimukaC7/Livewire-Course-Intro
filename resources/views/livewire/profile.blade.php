@@ -21,7 +21,12 @@
 
 {{--                <input wire:model="user.name" wire:keydown="checkname" class="form-control {{ $errors->has('user.name') ? 'is-invalid' : '' }}" type="text" name="name" id="name" required>--}}
 
-                <input wire:model="user.name" class="form-control {{ $errors->has('user.name') ? 'is-invalid' : '' }}" type="text" name="name" id="name" required>
+                <input wire:model="user.name"
+                       class="form-control {{ $errors->has('user.name') ? 'is-invalid' : '' }}"
+                       type="text"
+                       id="name"
+                       name="name"
+                       required>
                 @if($errors->has('user.name'))
                     <div class="invalid-feedback">
                         {{ $errors->first('user.name') }}

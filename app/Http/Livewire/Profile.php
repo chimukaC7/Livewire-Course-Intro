@@ -5,9 +5,10 @@ namespace App\Http\Livewire;
 use App\Models\User;
 use Livewire\Component;
 
-class Profile extends Component
+class  Profile extends Component
 {
     public $success = false;
+
     public $name;
     public $email;
     public $user_id;//parameter
@@ -53,6 +54,9 @@ class Profile extends Component
 //            'email' => $this->name
 //        ]);
 
+        /*
+         * you do not need to pass any parameters,livewire will know the fields becos of the array of rules
+         * */
         $this->user->save();
 
         $this->success = true;
@@ -74,11 +78,15 @@ class Profile extends Component
     }
 
     //instead of the above method
+    //shorter
+    //public function updatedName($value)
     public function updatedUserName($value)
     {
         $this->validateOnly('user.name');
     }
 
+    //redundant
+    //can be done in the view
     public function toggleHelp(){
         $this->showHelp = !$this->showHelp;
     }

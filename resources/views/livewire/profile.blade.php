@@ -4,7 +4,7 @@
     </div>
 
     <div class="card-body">
-        <form wire:submit.prevent="updateprofile">
+        <form wire:submit.prevent="submit">
             @csrf
             <div class="form-group">
                 <label class="required" for="name">{{ trans('cruds.user.fields.name') }}</label>

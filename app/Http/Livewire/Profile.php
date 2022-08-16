@@ -14,6 +14,7 @@ class  Profile extends Component
     public $user_id;//parameter
 
     //instead of variables we can use an object
+    //if variables are coming from one object use an object
     //for an object to work ensure to include the validation rules
     //if there are multiple objects involved, you can use them as well
     public $user;//binding a object
@@ -45,7 +46,7 @@ class  Profile extends Component
         return view('livewire.profile');
     }
 
-    public function updateprofile()
+    public function submit()
     {
         $this->validate();
 
@@ -56,6 +57,7 @@ class  Profile extends Component
 
         /*
          * you do not need to pass any parameters,livewire will know the fields becos of the array of rules
+         * if using you are bining the entire object
          * */
         $this->user->save();
 

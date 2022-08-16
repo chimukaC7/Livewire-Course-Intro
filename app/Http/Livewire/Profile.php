@@ -81,8 +81,11 @@ class  Profile extends Component
 
     //instead of the above method
     //shorter
-    //public function updatedName($value)
-    public function updatedUserName($value)
+    public function updatedName()//variable
+    {
+        $this->validateOnly('name');
+    }
+    public function updatedUserName()//object
     {
         $this->validateOnly('user.name');
     }
